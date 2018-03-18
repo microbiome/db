@@ -13,51 +13,58 @@ Database description
 
 The database contains sequenced and fully annotated reference genomes
 for the human gut bacteria from public sources. Currently this
-includes 823 bacterial species from the human gastrointestinal tract.
+includes 823 genome sequences for microbial (mostly bacterial)
+organisms from the human gastrointestinal tract.
 
+**Data access** Download the custom [database in FASTA
+  format](Gastrointestinal_tract.nuc.fsa).
 
-**Data access**
+**Data description** Metadata for 745 of the genome sequences (90.5%)
+  is summarized in [project_catalog.csv}(project_catalog.csv),
+  including information of organism name, domain, gene count, the
+  current sequencing quality, HMP/GOLD/NCBI/Genbank/IMG/HDMD IDs,
+  sequencing center, and other information. The data set contains 737
+  bacterial genomes, 2 archaeal genomes. For 6 genomes the domain
+  information was not provided but these could be manually classified
+  into the bacterial domain. The data collection includes both
+  high-quality draft sequences (308; 41%), and completed genomes (437;
+  59%). For further details of genome annotation, see the [Genbank
+  file]().
 
-Download the custom [database in FASTA format](Gastrointestinal_tract.nuc.fsa).
-
-
-**Details of data retrieval** The reference sequences for annotated
-bacterial genomes were downloaded from [HMP reference genomes
-database](https://www.hmpdacc.org/hmp/catalog/) (accessed March 18,
-2018). The FASTA (ASM) files for bacterial genomes from the human
-gastrointestinal tract were
-[retrieved](https://www.hmpdacc.org/hmp/HMRGD/), yielding 823 genome
-sequences. These include both high-quality draft sequences, and a
-smaller number of completed genomes. For details, see the Genbank file
-format.
+**Details of data retrieval and database construction** The reference
+sequences for annotated bacterial genomes were downloaded from [HMP
+reference genomes database](https://www.hmpdacc.org/hmp/catalog/). We
+filtered the results to include only bacterial genomes from the [human
+gastrointestinal
+tract](https://www.hmpdacc.org/hmp/catalog/grid.php?dataset=genomic&hmp_isolation_body_site=gastrointestinal_tract)
+(accessed March 18, 2018), yielding 823 genome sequences. This data
+collection was stored in [FASTA (ASM)]() and [Genbank]() formats.
 
 
 **Database maintenance and updates** This custom database will be
 updated when new sequenced and fully annotated reference genomes from
 the human gut microbiota become available. Contact the project
-coordinator for further details (see [contact](../contact/)).
+coordinator for further details (see [contact](contact.html)).
 
 
 ### References
+
+**Gut genome sequence databases**
 
 Human Microbiome Jumpstart Reference Strains Consortium. A catalog of
 reference genomes from the human microbiome. Science 21 May 2010:
 328(5981), pp. 994-97.
 
-[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3779803/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3779803/)
+[Human Microbiome Project (HMP) Reference Genomes](https://www.ncbi.nlm.nih.gov/bioproject/28331)
 
-[http://meta.genomics.cn/meta/dataTools](http://meta.genomics.cn/meta/dataTools)
 
-[https://www.hmpdacc.org/hmp/resources/osdf.php](https://www.hmpdacc.org/hmp/resources/osdf.php)
+**Gut microbial gene catalogs**
 
-[https://portal.hmpdacc.org/](https://portal.hmpdacc.org/)
+Qin J _et al._ A human gut microbial gene catalog established by metagenomic sequencing. Nature. 2010 Mar 4; 464(7285): 59–65. [doi: 10.1038/nature08821](https://dx.doi.org/10.1038%2Fnature08821)
 
-[https://www.nature.com/articles/sdata201735](https://www.nature.com/articles/sdata201735)
+[Integrated reference catalog of the human gut microbiome](http://meta.genomics.cn/meta/dataTools)
 
-[Databrowser](https://www.hmpdacc.org/hmp/resources/data_browser.php)
 
-[Query](https://www.hmpdacc.org/hmp/catalog/grid.php?dataset=genomic&hmp_isolation_body_site=gastrointestinal_tract)
 
-Could also look at [https://www.ncbi.nlm.nih.gov/bioproject/28331](https://www.ncbi.nlm.nih.gov/bioproject/28331)
 
 
