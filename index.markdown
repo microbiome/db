@@ -5,7 +5,7 @@ section: Home
 ---
 
 
-Contact
+Custom database of gut genome sequences
 =======
 
 Welcome to the human gut microbiome database of the XXX project. 
