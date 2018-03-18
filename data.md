@@ -63,7 +63,7 @@ available. Contact the project coordinator for further details (see
 [contact](contact.html)).
 
 
-### References
+# References
 
 **Gut genome sequence databases**
 
