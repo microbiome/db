@@ -7,6 +7,7 @@ title: Contact
 Contact
 ========
 
+**Database maintainer** Leo Lahti (leo.lahti@iki.fi)
 
 **Mail** [VIB/KU Leuven](http://www.kuleuven.be/wieiswie/en/person/00107616). VIB11 vzw Center for the Biology of Disease.<br/>O&N Rega. Herestraat 49 - box 1030. 3000 Leuven, Belgium.  
 
